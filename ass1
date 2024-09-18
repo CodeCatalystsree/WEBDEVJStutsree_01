@@ -1,0 +1,5 @@
+let totalvalue=2000;
+let discountPercentage=20;
+let discount=(totalvalue*discountPercentage)/100;
+let finalprice=totalvalue-discount;
+console.log("The final price after discount is:",finalprice);
