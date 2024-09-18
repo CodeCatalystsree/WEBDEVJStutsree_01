@@ -1,0 +1,22 @@
+console.log("hello world");
+console.log("My First JS program");
+var fullname="srilekha hatui";
+console.log(fullname);
+let age=22;
+console.log(age);
+const height=5.5;
+console.log(height);
+/*const height=6;
+onsole.log(height);//we cannot change constant variable*/
+const ranu={name:"ranu",age:22,height:5.5};//second type of const declaration
+console.log(ranu);
+ranu.name="sri";
+console.log(ranu);//no error
+/*const ranu={name:"preetha",age:23,height:5.5};
+console.log(ranu);*///error
+const nums=[1,2,3,4,5];
+console.log(nums);
+nums[2]=0;
+console.log(nums);
+const nums=[1,2,6,4,5];
+console.log(nums);
